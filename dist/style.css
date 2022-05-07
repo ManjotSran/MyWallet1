@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap');
-
+/*body{
+    padding: 2rem;
+}*/
+input, button, select { 
+    border: 1px solid #aaa;
+    padding:1% 2%; }
+input { width:300px; }
+#result {
+    font-family:sans-serif;
+    font-size:16pt; }
 
 *{
     margin: 0;
@@ -241,4 +250,15 @@ body > footer > ul.list-unstyled.list-inline.text-center.py-2 > li:nth-child(2) 
 }
 .footer-para{
     text-align: left;
+}
+#logo-container svg {
+  width: 250px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #logo-container svg {
+    width: 150px;
+    height: auto;
+  }  
 }
