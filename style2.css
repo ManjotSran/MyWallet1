@@ -109,8 +109,3 @@ textarea[name="address"] {
   padding: 10px 2.7rem;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 }
-
-.navbar-brand{
-    border: 2px;
-    background-color: white;
-}
